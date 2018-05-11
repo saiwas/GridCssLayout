@@ -1,0 +1,21 @@
+/* Initialize Css */
+.masthead {
+  background-color: blueviolet;
+}
+.page-title {
+  background-color: antiquewhite;
+}
+.main-content {
+  background-color: rgb(43, 226, 67);
+}
+.sidebar {
+  background-color: rgb(43, 226, 171);
+}
+.footer {
+  background-color: darkgoldenrod;
+}
+.site {
+  width: 100%;
+  height: 100%;
+  border: 2px dotted blue;
+}

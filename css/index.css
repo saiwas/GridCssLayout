@@ -26,15 +26,21 @@
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: auto 1fr 3fr;
 }
+
+/* Using grid-template-area instead of couting on the items */
+.site {
+  grid-template-areas:
+    "title title title"
+    "main header header"
+    "main sidebar footer";
+}
+
 .masthead {
-  grid-column: 2/4;
-  grid-row: 2/3;
+  grid-area: header;
 }
 .page-title {
-  grid-column: 1/4;
-  grid-row: 1/2;
+  grid-area: title;
 }
 .main-content {
-  grid-column: 1/2;
-  grid-row: 2/4;
+  grid-area: main;
 }
